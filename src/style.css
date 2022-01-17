@@ -17,6 +17,7 @@
   
   h1 {
     font-size: 96px;
+    margin: 16px 0;
   }
   
   h2 {
@@ -108,7 +109,7 @@
   }
   
   .shadow {
-    var(--box-shadow);
+    box-shadow: var(--box-shadow);
   }
   
   .contact {
@@ -127,3 +128,14 @@
     text-decoration: underline;
   }
   
+@media (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  h2, h3 {
+    font-size: 18px;
+  }
+}
