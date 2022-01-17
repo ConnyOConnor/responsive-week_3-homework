@@ -81,7 +81,6 @@
   
   .container h2 {
     text-align: left;
-   
   }
   
   .work-links {
@@ -128,14 +127,20 @@
     text-decoration: underline;
   }
   
-@media (max-width: 400px) {
-  h1 {
-    font-size: 40px;
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 38px;
+    }
   }
-}
+  
+  @media (max-width: 576px) {
+    h2, h3 {
+      font-size: 18px;
+    }
+  }
 
-@media (max-width: 400px) {
-  h2, h3 {
-    font-size: 18px;
+  @media (max-width: 576px) {
+    h4 {
+      margin-top: 40px;
+    }
   }
-}
